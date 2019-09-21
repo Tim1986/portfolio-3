@@ -1,0 +1,52 @@
+#footer-text {
+    font-size: 60px;
+    padding: 0;
+}
+
+#footer-text > a {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.extra-large-font {
+    font-size: 40px;
+}
+
+/* .large-font {
+    font-size: 36px;
+} */
+
+.mainpic {
+    border-radius: 50%;
+}
+
+.pic1 {
+    width: 175px;
+    height: 116px;
+}
+
+.pic2 {
+    width: 175px;
+    height: 175px;
+}
+
+.pic3 {
+    width: 175px;
+    height: 175px;
+}
+
+.pic4 {
+    width: 175px;
+    height: 116px;
+}
+
+.pic5 {
+    width: 175px;
+    height: 116px;
+}
+
+.pic6 {
+    width: 175px;
+    height: 175px;
+}
+
