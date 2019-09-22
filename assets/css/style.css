@@ -99,3 +99,23 @@
     align-items: center;
     transition: opacity 400ms;
 }
+
+.contact-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.about-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.tech-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.project-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
