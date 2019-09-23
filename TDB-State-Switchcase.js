@@ -4,435 +4,437 @@ function citySearch() {
     switch (state) {
         // 1
         case "AL":
-            AL();
-            MS();
-            TN();
-            GA();
-            FL();
+            searchThisState(AL)
+            searchThisState(MS)
+            searchThisState(TN)
+            searchThisState(GA)
+            searchThisState(FL)
             break;
 
         case "AK":
-            AK();
+            searchThisState(AK)
             break;
 
         case "AZ":
-            AZ();
-            CA();
-            NV();
-            UT();
-            CO();
-            NM();
+            searchThisState(AZ)
+            searchThisState(CA)
+            searchThisState(NV)
+            searchThisState(UT)
+            searchThisState(CO)
+            searchThisState(NM)
             break;
 
         case "AR":
-            AR();
-            LA();
-            TX();
-            OK();
-            KS();
-            MO();
-            TN();
-            MS();
+            searchThisState(AR)
+            searchThisState(LA)
+            searchThisState(TX)
+            searchThisState(OK)
+            searchThisState(KS)
+            searchThisState(MO)
+            searchThisState(TN)
+            searchThisState(MS)
             break;
 
         // 5
         case "CA":
-            CA();
-            OR();
-            NV();
-            AZ();
+            searchThisState(CA)
+            searchThisState(OR)
+            searchThisState(NV)
+            searchThisState(AZ)
             break;
 
         case "CO":
-            CO();
-            UT();
-            WY();
-            NE();
-            KS();
-            OK();
-            TX();
-            NM();
-            AZ();
+            searchThisState(CO)
+            searchThisState(UT)
+            searchThisState(WY)
+            searchThisState(NE)
+            searchThisState(KS)
+            searchThisState(OK)
+            searchThisState(TX)
+            searchThisState(NM)
+            searchThisState(AZ)
             break;
 
         case "CT":
-            CT();
-            RI();
-            MA();
-            NY();
-            NJ();
+            searchThisState(CT)
+            searchThisState(RI)
+            searchThisState(MA)
+            searchThisState(NY)
+            searchThisState(NJ)
             break;
 
         case "DE":
-            DE();
-            MD();
-            VA();
-            PA();
-            DC();
-            NJ();
+            searchThisState(DE)
+            searchThisState(MD)
+            searchThisState(VA)
+            searchThisState(PA)
+            searchThisState(DC)
+            searchThisState(NJ)
             break;
 
         case "FL":
-            FL();
-            GA();
-            AL();
+            searchThisState(FL)
+            searchThisState(GA)
+            searchThisState(AL)
             break;
 
         // 10
         case "GA":
-            GA();
-            FL();
-            AL();
-            TN();
-            NC();
-            SC();
+            searchThisState(GA)
+            searchThisState(FL)
+            searchThisState(AL)
+            searchThisState(TN)
+            searchThisState(NC)
+            searchThisState(SC)
             break;
 
         case "HI":
-            HI();
+            searchThisState(HI)
             break;
 
         case "ID":
-            ID();
-            WA();
-            OR();
-            NV();
-            UT();
-            WY();
-            MT();
+            searchThisState(ID)
+            searchThisState(WA)
+            searchThisState(OR)
+            searchThisState(NV)
+            searchThisState(UT)
+            searchThisState(WY)
+            searchThisState(MT)
             break;
 
         case "IL":
-            IL();
-            WI();
-            IA();
-            MO();
-            KY();
-            IN();
+            searchThisState(IL)
+            searchThisState(WI)
+            searchThisState(IA)
+            searchThisState(MO)
+            searchThisState(KY)
+            searchThisState(IN)
             break;
 
         case "IN":
-            IN();
-            MI();
-            OH();
-            KY();
-            IL();
+            searchThisState(IN)
+            searchThisState(MI)
+            searchThisState(OH)
+            searchThisState(KY)
+            searchThisState(IL)
             break;
 
         // 15
         case "IA":
-            IA();
-            MN();
-            WI();
-            IL();
-            MO();
-            NE();
-            SD();
+            searchThisState(IA)
+            searchThisState(MN)
+            searchThisState(WI)
+            searchThisState(IL)
+            searchThisState(MO)
+            searchThisState(NE)
+            searchThisState(SD)
             break;
 
         case "KS":
-            KS();
-            NE();
-            MO();
-            AR();
-            OK();
-            TX();
-            CO();
+            searchThisState(KS)
+            searchThisState(NE)
+            searchThisState(MO)
+            searchThisState(AR)
+            searchThisState(OK)
+            searchThisState(TX)
+            searchThisState(CO)
             break;
 
         case "KY":
-            KY();
-            IN();
-            OH();
-            WV();
-            VA();
-            TN();
-            MO();
-            IL();
+            searchThisState(KY)
+            searchThisState(IN)
+            searchThisState(OH)
+            searchThisState(WV)
+            searchThisState(VA)
+            searchThisState(TN)
+            searchThisState(MO)
+            searchThisState(IL)
             break;
 
         case "LA":
-            LA();
-            TX();
-            AR();
-            MS();
+            searchThisState(LA)
+            searchThisState(TX)
+            searchThisState(AR)
+            searchThisState(MS)
             break;
 
         case "ME":
-            ME();
-            NH();
+            searchThisState(ME)
+            searchThisState(NH)
+            searchThisState(VT)
+            searchThisState(MA)
+            searchThisState(NY)
             break;
 
         // 20
         case "MD":
-            MD();
-            DC();
-            DE();
-            PA();
-            VA();
+            searchThisState(MD)
+            searchThisState(DC)
+            searchThisState(DE)
+            searchThisState(PA)
+            searchThisState(VA)
             break;
 
         case "MA":
-            MA();
-            NH();
-            VT();
-            NY();
-            CT();
-            RI();
+            searchThisState(MA)
+            searchThisState(NH)
+            searchThisState(VT)
+            searchThisState(NY)
+            searchThisState(CT)
+            searchThisState(RI)
             break;
 
         case "MI":
-            MI();
-            IN();
-            OH();
+            searchThisState(MI)
+            searchThisState(IN)
+            searchThisState(OH)
             break;
 
         case "MN":
-            MN();
-            ND();
-            SD();
-            IA();
-            WI();
+            searchThisState(MN)
+            searchThisState(ND)
+            searchThisState(SD)
+            searchThisState(IA)
+            searchThisState(WI)
             break;
 
         case "MS":
-            MS();
-            LA();
-            AR();
-            TN();
-            AL();
+            searchThisState(MS)
+            searchThisState(LA)
+            searchThisState(AR)
+            searchThisState(TN)
+            searchThisState(AL)
             break;
 
         // 25
         case "MO":
-            MO();
-            KS();
-            NE();
-            IA();
-            IL();
-            KY();
-            TN();
-            AR();
-            OK();
+            searchThisState(MO)
+            searchThisState(KS)
+            searchThisState(NE)
+            searchThisState(IA)
+            searchThisState(IL)
+            searchThisState(KY)
+            searchThisState(TN)
+            searchThisState(AR)
+            searchThisState(OK)
             break;
 
         case "MT":
-            MT();
-            ID();
-            WY();
-            SD();
-            ND();
+            searchThisState(MT)
+            searchThisState(ID)
+            searchThisState(WY)
+            searchThisState(SD)
+            searchThisState(ND)
             break;
 
         case "NE":
-            NE();
-            SD();
-            IA();
-            MO();
-            KS();
-            CO();
-            WY();
+            searchThisState(NE)
+            searchThisState(SD)
+            searchThisState(IA)
+            searchThisState(MO)
+            searchThisState(KS)
+            searchThisState(CO)
+            searchThisState(WY)
             break;
 
         case "NV":
-            NV();
-            CA();
-            OR();
-            ID();
-            UT();
-            AZ();
+            searchThisState(NV)
+            searchThisState(CA)
+            searchThisState(OR)
+            searchThisState(ID)
+            searchThisState(UT)
+            searchThisState(AZ)
             break;
 
         case "NH":
-            NH();
-            ME();
-            VT();
-            MA();
+            searchThisState(NH)
+            searchThisState(ME)
+            searchThisState(VT)
+            searchThisState(MA)
             break;
 
         // 30
         case "NJ":
-            NJ();
-            DE();
-            PA();
-            NY();
+            searchThisState(NJ)
+            searchThisState(DE)
+            searchThisState(PA)
+            searchThisState(NY)
             break;
 
         case "NM":
-            NM();
-            TX();
-            OK();
-            CO();
-            AZ();
-            UT();
+            searchThisState(NM)
+            searchThisState(TX)
+            searchThisState(OK)
+            searchThisState(CO)
+            searchThisState(AZ)
+            searchThisState(UT)
             break;
 
         case "NY":
-            NY();
-            PA();
-            NJ();
-            CT();
-            MA();
-            VT();
+            searchThisState(NY)
+            searchThisState(PA)
+            searchThisState(NJ)
+            searchThisState(CT)
+            searchThisState(MA)
+            searchThisState(VT)
             break;
 
         case "NC":
-            NC();
-            SC();
-            GA();
-            TN();
-            VA();
+            searchThisState(NC)
+            searchThisState(SC)
+            searchThisState(GA)
+            searchThisState(TN)
+            searchThisState(VA)
             break;
 
         case "ND":
-            ND();
-            MT();
-            WY();
-            SD();
-            MN();
+            searchThisState(ND)
+            searchThisState(MT)
+            searchThisState(WY)
+            searchThisState(SD)
+            searchThisState(MN)
             break;
 
         // 35
         case "OH":
-            OH();
-            MI();
-            IN();
-            KY();
-            WV();
-            PA();
+            searchThisState(OH)
+            searchThisState(MI)
+            searchThisState(IN)
+            searchThisState(KY)
+            searchThisState(WV)
+            searchThisState(PA)
             break;
 
         case "OK":
-            OK();
-            TX();
-            KS();
-            NM();
-            CO();
-            MO();
-            AR();
-            LA();
-
+            searchThisState(OK)
+            searchThisState(TX)
+            searchThisState(KS)
+            searchThisState(NM)
+            searchThisState(CO)
+            searchThisState(MO)
+            searchThisState(AR)
+            searchThisState(LA)
             break;
 
         case "OR":
-            OR();
-            WA();
-            ID();
-            NV();
-            CA();
+            searchThisState(OR)
+            searchThisState(WA)
+            searchThisState(ID)
+            searchThisState(NV)
+            searchThisState(CA)
             break;
 
         case "PA":
-            PA();
-            NY();
-            NJ();
-            DE();
-            MD();
-            DC();
-            WV();
-            OH();
+            searchThisState(PA)
+            searchThisState(NY)
+            searchThisState(NJ)
+            searchThisState(DE)
+            searchThisState(MD)
+            searchThisState(DC)
+            searchThisState(WV)
+            searchThisState(OH)
             break;
 
         case "RI":
-            RI();
-            CT();
-            MA();
+            searchThisState(RI)
+            searchThisState(CT)
+            searchThisState(MA)
             break;
 
         // 40
         case "SC":
-            SC();
-            NC();
-            GA();
+            searchThisState(SC)
+            searchThisState(NC)
+            searchThisState(GA)
             break;
 
         case "SD":
-            SD();
-            ND();
-            MT();
-            WY();
-            NE();
-            IA();
-            MN();
+            searchThisState(SD)
+            searchThisState(ND)
+            searchThisState(MT)
+            searchThisState(WY)
+            searchThisState(NE)
+            searchThisState(IA)
+            searchThisState(MN)
             break;
 
         case "TN":
-            TN();
-            KY();
-            VA();
-            NC();
-            GA();
-            AL();
-            MS();
-            AR();
-            MO();
+            searchThisState(TN)
+            searchThisState(KY)
+            searchThisState(VA)
+            searchThisState(NC)
+            searchThisState(GA)
+            searchThisState(AL)
+            searchThisState(MS)
+            searchThisState(AR)
+            searchThisState(MO)
             break;
 
         case "TX":
-            TX();
-            NM();
-            OK();
-            AR();
-            LA();
+            searchThisState(TX)
+            searchThisState(NM)
+            searchThisState(OK)
+            searchThisState(AR)
+            searchThisState(LA)
             break;
 
         case "UT":
-            UT();
-            ID();
-            WY();
-            CO();
-            NM();
-            AZ();
-            NV();
+            searchThisState(UT)
+            searchThisState(ID)
+            searchThisState(WY)
+            searchThisState(CO)
+            searchThisState(NM)
+            searchThisState(AZ)
+            searchThisState(NV)
             break;
 
         // 45
         case "VT":
-            VT();
-            NH();
-            MA();
-            NY();
+            searchThisState(VT)
+            searchThisState(NH)
+            searchThisState(MA)
+            searchThisState(NY)
             break;
 
         case "VA":
-            VA();
-            DC();
-            KY();
-            TN();
-            NC();
+            searchThisState(VA)
+            searchThisState(DC)
+            searchThisState(KY)
+            searchThisState(TN)
+            searchThisState(NC)
             break;
 
         case "WA":
-            WA();
-            OR();
-            ID();
+            searchThisState(WA)
+            searchThisState(OR)
+            searchThisState(ID)
             break;
 
         case "WV":
-            WV();
-            DC();
-            VA();
-            KY();
-            OH();
-            PA();
+            searchThisState(WV)
+            searchThisState(DC)
+            searchThisState(VA)
+            searchThisState(KY)
+            searchThisState(OH)
+            searchThisState(PA)
             break;
 
         case "WI":
-            WI();
-            MN();
-            IA();
-            IL();
+            searchThisState(WI)
+            searchThisState(MN)
+            searchThisState(IA)
+            searchThisState(IL)
             break;
 
         // 50
         case "WY":
-            WY();
-            MT();
-            ID();
-            UT();
-            CO();
-            NE();
-            SD();
+            searchThisState(WY)
+            searchThisState(MT)
+            searchThisState(ID)
+            searchThisState(UT)
+            searchThisState(CO)
+            searchThisState(NE)
+            searchThisState(SD)
             break;
 
         default:
@@ -441,233 +443,135 @@ function citySearch() {
 }
 citySearch()
 
-const AL = () => {
-    ["Birmingham, Alabama", "Florence, Alabama", "Gadsden, Alabama", "Huntsville, Alabama", "Mobile, Alabama", 
-    "Montgomery, Alabama", ]
+const searchThisState = array => {
+    // search everything in the array
 }
 
-const AK = () => {
-    ["Anchorage, Alaska"]
-}
+const AL = ["Birmingham, Alabama", "Florence, Alabama", "Gadsden, Alabama", "Huntsville, Alabama", "Mobile, Alabama",
+        "Montgomery, Alabama"]
 
-const AZ = () => {
-    ["Glendale, Arizona", "Mesa, Arizona", "Phoenix, Arizona", "Scottsdale, Arizona", "Tucson, Arizona", ]
-}
+const AK = ["Anchorage, Alaska"]
 
-const AR = () => {
-    ["Hot Springs, Arkansas", "Little Rock, Arkansas", ]
-}
+const AZ = ["Glendale, Arizona", "Mesa, Arizona", "Phoenix, Arizona", "Scottsdale, Arizona", "Tucson, Arizona"]
 
-const CA = () => {
-    ["Anaheim, California", "Bakersfield, California", "Berkeley, California", "Beverly Hills, California", 
-    "Burbank, California", "Compton, California", "Downey, California", "Fresno, California", "Fullerton, California",
-    "Glendale, California", "Hawthorne, California", "Inglewood, California", "Long Beach, California", "Los Angeles", 
-    "Manhattan Beach, California", "Modesto, California", "Newport Beach, California", "Oakland, California", 
-    "Oxnard, California", "Palm Springs, California", "Palo Alto, California", "Pasadena, California", 
-    "Redondo Beach, California", "Richmond, California", "Riverside, California", "Sacramento, California", 
-    "San Bernardino, California", "San Diego", "San Francisco", "San Jose, California", "San Rafael, California", 
-    "Santa Barbara, California", "Santa Cruz, California", "Santa Monica, California", "Santa Rosa, California", 
-    "Stockton, California", "Torrance, California", "Vallejo, California", "Vista, California", "Whittier,  California"]
-}
+const AR = ["Hot Springs, Arkansas", "Little Rock, Arkansas"]
 
-const CO = () => {
-    ["Boulder, Colorado", "Colorado Springs, Colorado", "Denver"]
-}
+const CA = ["Anaheim, California", "Bakersfield, California", "Berkeley, California", "Beverly Hills, California",
+        "Burbank, California", "Compton, California", "Downey, California", "Fresno, California", "Fullerton, California",
+        "Glendale, California", "Hawthorne, California", "Inglewood, California", "Long Beach, California", "Los Angeles",
+        "Manhattan Beach, California", "Modesto, California", "Newport Beach, California", "Oakland, California",
+        "Oxnard, California", "Palm Springs, California", "Palo Alto, California", "Pasadena, California",
+        "Redondo Beach, California", "Richmond, California", "Riverside, California", "Sacramento, California",
+        "San Bernardino, California", "San Diego", "San Francisco", "San Jose, California", "San Rafael, California",
+        "Santa Barbara, California", "Santa Cruz, California", "Santa Monica, California", "Santa Rosa, California",
+        "Stockton, California", "Torrance, California", "Vallejo, California", "Vista, California", "Whittier,  California"]
 
-const CT = () => {
-    ["Bridgeport, Connecticut", "Greenwich, Connecticut", "Hartford, Connecticut", "New Haven, Connecticut", 
-    "New London, Connecticut", "Norwalk, Connecticut", "Stamford, Connecticut"]
-}
+const CO = ["Boulder, Colorado", "Colorado Springs, Colorado", "Denver"]
 
-const DE = () => {
-    ["Wilmington,  Delaware"]
-}
+const CT = ["Bridgeport, Connecticut", "Greenwich, Connecticut", "Hartford, Connecticut", "New Haven, Connecticut",
+        "New London, Connecticut", "Norwalk, Connecticut", "Stamford, Connecticut"]
 
-const FL = () => {
-    ["Coral Springs, Florida", "Daytona Beach, Florida", "Fort Lauderdale, Florida", "Gainesville, Florida", 
-    "Jacksonville, Florida", "Lakeland, Florida", "Miami", "Ocala, Florida", "Orlando, Florida", "Pensacola, Florida", 
-    "St. Petersburg, Florida", "Tallahassee, Florida", "Tampa, Florida"]
-}
+const DE = ["Wilmington,  Delaware"]
 
-const GA = () => {
-    ["Albany, Georgia", "Athens, Georgia", "Atlanta", "Augusta, Georgia", "Columbus, Georgia", "Macon, Georgia", 
-    "Marietta, Georgia", "Savannah, Georgia"]
-}
+const FL = ["Coral Springs, Florida", "Daytona Beach, Florida", "Fort Lauderdale, Florida", "Gainesville, Florida",
+        "Jacksonville, Florida", "Lakeland, Florida", "Miami", "Ocala, Florida", "Orlando, Florida", "Pensacola, Florida",
+        "St. Petersburg, Florida", "Tallahassee, Florida", "Tampa, Florida"]
 
-const HI = () => {
-    ["Honolulu"]
-}
+const GA = ["Albany, Georgia", "Athens, Georgia", "Atlanta", "Augusta, Georgia", "Columbus, Georgia", "Macon, Georgia",
+        "Marietta, Georgia", "Savannah, Georgia"]
 
-const ID = () => {
-    ["Boise, Idaho"]
-}
+const HI = ["Honolulu"]
 
-const IL = () => {
-    ["Champaign, Illinois", "Chicago", "Decatur, Illinois", "Evanston, Illinois", "Joliet, Illinois", "Oak Park, Illinois", 
-    "Peoria, Illinois", "Rockford, Illinois"]
-}
+const ID = ["Boise, Idaho"]
 
-const IN = () => {
-    ["Anderson, Indiana", "Bloomington, Indiana", "Evansville, Indiana", "Fort Wayne, Indiana", "Gary, Indiana", 
-    "Indianapolis", "Richmond, Indiana", "South Bend, Indiana"]
-}
+const IL = ["Champaign, Illinois", "Chicago", "Decatur, Illinois", "Evanston, Illinois", "Joliet, Illinois", "Oak Park, Illinois",
+        "Peoria, Illinois", "Rockford, Illinois"]
 
-const IA = () => {
-    ["Cedar Rapids, Iowa", "Des Moines, Iowa", "Iowa City, Iowa"]
-}
+const IN = ["Anderson, Indiana", "Bloomington, Indiana", "Evansville, Indiana", "Fort Wayne, Indiana", "Gary, Indiana",
+        "Indianapolis", "Richmond, Indiana", "South Bend, Indiana"]
 
-const KS = () => {
-    ["Kansas City, Kansas", "Lawrence, Kansas", "Wichita,  Kansas", "Topeka, Kansas"]
-}
+const IA = ["Cedar Rapids, Iowa", "Des Moines, Iowa", "Iowa City, Iowa"]
 
-const KY = () => {
-    ["Ashland, Kentucky", "Bowling Green, Kentucky", "Lexington, Kentucky", "Louisville, Kentucky", "Paducah, Kentucky"]
-}
+const KS = ["Kansas City, Kansas", "Lawrence, Kansas", "Wichita,  Kansas", "Topeka, Kansas"]
 
-const LA = () => {
-    ["Baton Rouge, Louisiana", "Lafayette, Louisiana", "Lake Charles, Louisiana", "Monroe, Louisiana", 
-    "New Orleans", "Shreveport, Louisiana"]
-}
+const KY = ["Ashland, Kentucky", "Bowling Green, Kentucky", "Lexington, Kentucky", "Louisville, Kentucky", "Paducah, Kentucky"]
 
-const ME = () => {
-    ["Bangor, Maine", "Portland, Maine"]
-}
+const LA = ["Baton Rouge, Louisiana", "Lafayette, Louisiana", "Lake Charles, Louisiana", "Monroe, Louisiana",
+        "New Orleans", "Shreveport, Louisiana"]
 
-const MD = () => {
-    ["Baltimore", "Rockville, Maryland"]
-}
+const ME = ["Bangor, Maine", "Portland, Maine"]
 
-const MA = () => {
-    ["Boston", "Brockton, Massachusetts", "Cambridge, Massachusetts", "Lowell, Massachusetts", "Newton, Massachusetts", 
-    "Somerville, Massachusetts", "Springfield, Massachusetts", "Worcester, Massachusetts"]
-}
+const MD = ["Baltimore", "Rockville, Maryland"]
 
-const MI = () => {
-    ["Ann Arbor, Michigan", "Detroit", "Flint, Michigan", "Lansing, Michigan", "Pontiac, Michigan", "Saginaw, Michigan"]
-}
+const MA = ["Boston", "Brockton, Massachusetts", "Cambridge, Massachusetts", "Lowell, Massachusetts", "Newton, Massachusetts",
+        "Somerville, Massachusetts", "Springfield, Massachusetts", "Worcester, Massachusetts"]
 
-const MN = () => {
-    ["Duluth, Minnesota", "Minneapolis", "Saint Paul, Minnesota"]
-}
+const MI = ["Ann Arbor, Michigan", "Detroit", "Flint, Michigan", "Lansing, Michigan", "Pontiac, Michigan", "Saginaw, Michigan"]
 
-const MS = () => {
-    ["Clarksdale, Mississippi", "Greenville, Mississippi", "Hattiesburg, Mississippi", "Jackson, Mississippi", 
-    "Meridian, Mississippi", "Natchez, Mississippi", "Vicksburg, Mississippi"]
-}
+const MN = ["Duluth, Minnesota", "Minneapolis", "Saint Paul, Minnesota"]
 
-const MO = () => {
-    ["Columbia, Missouri", "Kansas City, Missouri", "Springfield, Missouri", "St. Louis"]
-}
+const MS = ["Clarksdale, Mississippi", "Greenville, Mississippi", "Hattiesburg, Mississippi", "Jackson, Mississippi",
+        "Meridian, Mississippi", "Natchez, Mississippi", "Vicksburg, Mississippi"]
 
-const MT = () => {
-    ["Missoula, Montana"]
-}
+const MO = ["Columbia, Missouri", "Kansas City, Missouri", "Springfield, Missouri", "St. Louis"]
 
-const NE = () => {
-    ["Lincoln, Nebraska", "Omaha, Nebraska"]
-}
+const MT = ["Missoula, Montana"]
 
-const NV = () => {
-    ["Las Vegas", "Reno, Nevada"]
-}
+const NE = ["Lincoln, Nebraska", "Omaha, Nebraska"]
 
-const NH = () => {
-    console.log("empty state")
-}
+const NV = ["Las Vegas", "Reno, Nevada"]
 
-const NJ = () => {
-    ["Atlantic City, New Jersey", "Bayonne, New Jersey", "Camden, New Jersey", "East Orange, New Jersey", "Hoboken, New Jersey", 
-    "Jersey City, New Jersey", "New Brunswick, New Jersey", "Newark, New Jersey", "Passaic, New Jersey", "Paterson, New Jersey", 
-    "Plainfield, New Jersey", "Summit, New Jersey", "Trenton, New Jersey"]
-}
+const NH = []
 
-const NM = () => {
-    ["Albuquerque, New Mexico", "Santa Fe, New Mexico"]
-}
+const NJ = ["Atlantic City, New Jersey", "Bayonne, New Jersey", "Camden, New Jersey", "East Orange, New Jersey", "Hoboken, New Jersey",
+        "Jersey City, New Jersey", "New Brunswick, New Jersey", "Newark, New Jersey", "Passaic, New Jersey", "Paterson, New Jersey",
+        "Plainfield, New Jersey", "Summit, New Jersey", "Trenton, New Jersey"]
 
-const NY = () => {
-    ["Albany, New York", "Buffalo, New York", "Ithaca, New York", "Kingston, New York", "Mount Vernon, New York", 
-    "New Rochelle, New York", "New York City", "the New York metropolitan area", "Niagara Falls, New York", 
-    "Poughkeepsie, New York", "Rochester, New York", "Syracuse, New York", "Troy, New York", "Utica, New York"]
-}
+const NM = ["Albuquerque, New Mexico", "Santa Fe, New Mexico"]
 
-const NC = () => {
-    ["Asheville, North Carolina", "Charlotte, North Carolina", "Durham, North Carolina", "Fayetteville, North Carolina", 
-    "Greensboro, North Carolina", "Raleigh, North Carolina", "Winston-Salem, North Carolina"]
-}
+const NY = ["Albany, New York", "Buffalo, New York", "Ithaca, New York", "Kingston, New York", "Mount Vernon, New York",
+        "New Rochelle, New York", "New York City", "the New York metropolitan area", "Niagara Falls, New York",
+        "Poughkeepsie, New York", "Rochester, New York", "Syracuse, New York", "Troy, New York", "Utica, New York"]
 
-const ND = () => {
-    console.log("empty state")
-}
+const NC = ["Asheville, North Carolina", "Charlotte, North Carolina", "Durham, North Carolina", "Fayetteville, North Carolina",
+        "Greensboro, North Carolina", "Raleigh, North Carolina", "Winston-Salem, North Carolina"]
 
-const OH = () => {
-    ["Akron, Ohio", "Canton, Ohio", "Cincinnati", "Cleveland", "Dayton, Ohio", "Columbus, Ohio", "Shaker Heights, Ohio", 
-    "Springfield, Ohio", "Toledo, Ohio", "Youngstown, Ohio"]
-}
+const ND = []
 
-const OK = () => {
-    ["Enid, Oklahoma", "Norman, Oklahoma", "Oklahoma City", "Tulsa, Oklahoma"]
-}
+const OH = ["Akron, Ohio", "Canton, Ohio", "Cincinnati", "Cleveland", "Dayton, Ohio", "Columbus, Ohio", "Shaker Heights, Ohio",
+        "Springfield, Ohio", "Toledo, Ohio", "Youngstown, Ohio"]
 
-const OR = () => {
-    ["Corvallis, Oregon", "Eugene, Oregon", "Hillsboro, Oregon", "Portland, Oregon", "Salem, Oregon"]
-}
+const OK = ["Enid, Oklahoma", "Norman, Oklahoma", "Oklahoma City", "Tulsa, Oklahoma"]
 
-const PA = () => {
-    ["Allentown, Pennsylvania", "Easton, Pennsylvania", "Erie, Pennsylvania", "Harrisburg, Pennsylvania", 
-    "Lancaster, Pennsylvania", "Philadelphia", "Pittsburgh", "Reading, Pennsylvania", "Scranton, Pennsylvania", 
-    "York, Pennsylvania"]
-}
+const OR = ["Corvallis, Oregon", "Eugene, Oregon", "Hillsboro, Oregon", "Portland, Oregon", "Salem, Oregon"]
 
-const RI = () => {
-    ["Newport, Rhode Island", "Providence, Rhode Island"]
-}
+const PA = ["Allentown, Pennsylvania", "Easton, Pennsylvania", "Erie, Pennsylvania", "Harrisburg, Pennsylvania",
+        "Lancaster, Pennsylvania", "Philadelphia", "Pittsburgh", "Reading, Pennsylvania", "Scranton, Pennsylvania",
+        "York, Pennsylvania"]
 
-const SC = () => {
-    ["Charleston, South Carolina", "Columbia, South Carolina", "Greenville, South Carolina", "Spartanburg, South Carolina"]
-}
+const RI = ["Newport, Rhode Island", "Providence, Rhode Island"]
 
-const SD = () => {
-    console.log("empty state")
-}
+const SC = ["Charleston, South Carolina", "Columbia, South Carolina", "Greenville, South Carolina", "Spartanburg, South Carolina"]
 
-const TN = () => {
-    ["Knoxville, Tennessee", "Memphis, Tennessee", "Nashville, Tennessee"]
-}
+const SD = []
 
-const TX = () => {
-    ["Amarillo, Texas", "Austin, Texas", "Dallas", "Houston", "San Antonio"]
-}
+const TN = ["Knoxville, Tennessee", "Memphis, Tennessee", "Nashville, Tennessee"]
 
-const UT = () => {
-    ["Ogden, Utah", "Provo, Utah", "Salt Lake City"]
-}
+const TX = ["Amarillo, Texas", "Austin, Texas", "Dallas", "Houston", "San Antonio"]
 
-const VT = () => {
-    ["Burlington, Vermont"]
-}
+const UT = ["Ogden, Utah", "Provo, Utah", "Salt Lake City"]
 
-const VA = () => {
-    ["Alexandria, Virginia", "Charlottesville, Virginia", "Hampton, Virginia", "Lynchburg, Virginia", "Newport News, Virginia", 
-    "Norfolk, Virginia", "Portsmouth, Virginia", "Richmond, Virginia", "Virginia Beach, Virginia"]
-}
+const VT = ["Burlington, Vermont"]
 
-const WA = () => {
-    ["Bainbridge Island, Washington", "Kirkland, Washington", "Olympia, Washington", "Seattle", "Spokane, Washington"]
-}
+const VA = ["Alexandria, Virginia", "Charlottesville, Virginia", "Hampton, Virginia", "Lynchburg, Virginia", "Newport News, Virginia",
+        "Norfolk, Virginia", "Portsmouth, Virginia", "Richmond, Virginia", "Virginia Beach, Virginia"]
 
-const WV = () => {
-    ["Charleston, West Virginia", "Huntington, West Virginia", "Wheeling, West Virginia"]
-}
+const WA = ["Bainbridge Island, Washington", "Kirkland, Washington", "Olympia, Washington", "Seattle", "Spokane, Washington"]
 
-const WI = () => {
-    ["Green Bay, Wisconsin", "Kenosha, Wisconsin", "Madison, Wisconsin", "Milwaukee", "Racine, Wisconsin"]
-}
+const WV = ["Charleston, West Virginia", "Huntington, West Virginia", "Wheeling, West Virginia"]
 
-const WY = () => {
-    console.log("empty state")
-}
+const WI = ["Green Bay, Wisconsin", "Kenosha, Wisconsin", "Madison, Wisconsin", "Milwaukee", "Racine, Wisconsin"]
 
-const DC = () => {
-    ["Washington, D.C."]
-}
+const WY = []
+
+const DC = ["Washington, D.C."]
